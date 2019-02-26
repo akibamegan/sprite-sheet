@@ -1,4 +1,4 @@
-# boilerplate
+# Sprite Sheet
 
 Sprite sheet created by Megan Akiba.
 Theme: Travel
