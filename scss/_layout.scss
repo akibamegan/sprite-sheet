@@ -1,0 +1,51 @@
+body {
+	// display: grid;
+	// grid-template-columns: repeat(4, 1fr);
+	// grid-template-rows: 100px auto auto 100px;
+	// grid-template-areas: 
+	// "head head head head"
+	// "nav nav nav nav"
+	// "main main main main"
+	// "foot foot foot foot";
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		// background-color: blue;
+		grid-area: nav;
+		a {
+			text-decoration: none;
+			a:hover { 
+				color: purple;
+			}
+			a:visited {
+				color: black;
+			}
+		}
+	}
+	header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		background-color: #942fb5;
+		background-image: linear-gradient(141deg, #9c8be0 0%, #c7b2da 51%, #8056d4 75%);
+		grid-area: head;
+	}
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		grid-area: main;
+	}
+	footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		grid-area: foot;
+	}
+}

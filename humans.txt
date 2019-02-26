@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+Custom HTML5/SASS/COMPASS boilerplate by Megan Akiba
+
+# TEAM
+
+   Megan Akiba
+
+# THANKS
+
+   	David Schaal
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
